@@ -1,6 +1,7 @@
 FROM eclipse-temurin:8-jdk-alpine
 MAINTAINER Ingo Müller <ingo.mueller@inf.ethz.ch>
 
+STOPSIGNAL SIGKILL
 ARG SPARK_URL
 ARG RUMBLEDB_URL
 
